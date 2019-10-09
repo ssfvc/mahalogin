@@ -27,12 +27,12 @@
 </head>
 
 <body>
-<h2 class="form-heading">
+
 <%
 <h1>
 out.print( request.getLocalAddr()  );
 %>
-</h2>
+
 <div class="container">
 
     <form method="POST" action="${contextPath}/login" class="form-signin">
