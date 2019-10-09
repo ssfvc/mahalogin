@@ -27,7 +27,12 @@
 </head>
 
 <body>
-
+<h2 class="form-heading">
+<%
+<h1>
+out.print( request.getLocalAddr()  );
+%>
+</h2>
 <div class="container">
 
     <form method="POST" action="${contextPath}/login" class="form-signin">
@@ -51,5 +56,6 @@
 <!-- /container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="${contextPath}/resources/js/bootstrap.min.js"></script>
+
 </body>
 </html>
